@@ -60,4 +60,4 @@ To create an AI Chatbot Application that uses Retrieval Augumented Generation (R
 &emsp; 3.10
 
 ## Next Steps:
-Implement program in langchain
+&emsp; Implement program in langchain

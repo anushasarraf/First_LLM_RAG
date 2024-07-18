@@ -1,7 +1,8 @@
-# LLM RAG for restaurants 
+# Food For Thought
+AI chatbot for restaurants 
 
 ## Goal: 
-To create an AI Chatbot Application that uses Retrieval Augumented Generation (RAG) in Langflow (GUI implementation of Langchain) to display restaurant FAQs
+To create an AI Chatbot Application that uses Retrieval Augumented Generation (RAG) in Ollama Langflow (GUI implementation of Langchain) to manage restaurant FAQs
 
 ## Setup/Installation:
 

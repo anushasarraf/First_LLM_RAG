@@ -5,56 +5,56 @@ To create an AI Chatbot Application that uses Retrieval Augumented Generation (R
 
 ## Setup/Installation:
 
-### Update python through homebrew (for macOS):
+### Update python through homebrew (for macOS):  
 
-#### Install home brew:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+#### &emsp; Install home brew:
+&emsp;&emsp; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-#### Update homebrew:
-brew update
+#### &emsp; Update homebrew:
+&emsp;&emsp; brew update
 
-#### Update python:
-brew upgrade python
+#### &emsp; Update python:
+&emsp;&emsp; brew upgrade python  
 
 ### Download langflow:
-python3 -m pip install langflow -U
+&emsp; python3 -m pip install langflow -U
 
 ### Run langflow:
-python3 -m langflow run
+&emsp; python3 -m langflow run
 
 ### Download Ollama (for macOS):
-https://ollama.com/
+&emsp; https://ollama.com/
 
 ### Start Ollama in the background:
-ollama serve
+&emsp; ollama serve
 
 ### Use the latest version:
-Ollama pull llama2
+&emsp; Ollama pull llama2
 
 ### Upload the Entity Relationship Diagram (ERD):
-Use the JSON file to create playground
+&emsp; Use the JSON file to create playground
 
 ### Connect a vectorized database:
 
-#### Create an astradb database on datastax:
-https://www.datastax.com/products/datastax-astra
+#### &emsp; Create an astradb database on datastax:
+&emsp;&emsp; https://www.datastax.com/products/datastax-astra  
 
-#### Details:
-database type: serverless (vector)
-server: aws/gcp server
-name: langflow_db
-region: us-east-2/us-east1
+#### &emsp; Details:
+&emsp;&emsp; database type: serverless (vector)  
+&emsp;&emsp; server: aws/gcp server  
+&emsp;&emsp; name: langflow_db  
+&emsp;&emsp; region: us-east-2/us-east1  
 
 ### Feeding data:
-Copy the API endpoint and application tokens and paste in the corresponding fields in ERD
+&emsp; Copy the API endpoint and application tokens and paste in the corresponding fields in ERD
 
 ### Run the program:
-Use the play button to build the program
-Click on playground button to launch chatbot
+&emsp; Use the play button to build the program  
+&emsp; Click on playground button to launch chatbot
 
 ## Dependencies:
-Langflow
-Ollama
+&emsp; Langflow  
+&emsp; Ollama
 
 ## Python version:
-3.10
+&emsp; 3.10

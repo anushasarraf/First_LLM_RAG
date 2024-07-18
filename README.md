@@ -1,7 +1,7 @@
 # LLM RAG for restaurants 
 
 ## Goal: 
-To create an AI Application that uses Retrieval Augumented Generation (RAG) in Langflow (GUI implementation of Langchain)
+To create an AI Chatbot Application that uses Retrieval Augumented Generation (RAG) in Langflow (GUI implementation of Langchain) to display restaurant FAQs
 
 ## Setup/Installation:
 
@@ -47,6 +47,10 @@ region: us-east-2/us-east1
 
 ### Feeding data:
 Copy the API endpoint and application tokens and paste in the corresponding fields in ERD
+
+### Run the program:
+Use the play button to build the program
+Click on playground button to launch chatbot
 
 ## Dependencies:
 Langflow

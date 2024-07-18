@@ -31,8 +31,22 @@ ollama serve
 ### Use the latest version:
 Ollama pull llama2
 
-### Upload the ERD:
-Use the JSON file to create playground and then click on the run button to run the application
+### Upload the Entity Relationship Diagram (ERD):
+Use the JSON file to create playground
+
+### Connect a vectorized database:
+
+#### Create an astradb database on datastax:
+https://www.datastax.com/products/datastax-astra
+
+#### Details:
+database type: serverless (vector)
+server: aws/gcp server
+name: langflow_db
+region: us-east-2/us-east1
+
+### Feeding data:
+Copy the API endpoint and application tokens and paste in the corresponding fields in ERD
 
 ## Dependencies:
 Langflow

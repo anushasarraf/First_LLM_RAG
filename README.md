@@ -19,7 +19,7 @@ brew upgrade python
 ### Download langflow:
 python3 -m pip install langflow -U
 
-### run langflow:
+### Run langflow:
 python3 -m langflow run
 
 ### Download Ollama (for macOS):

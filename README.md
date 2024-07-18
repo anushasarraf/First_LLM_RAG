@@ -1,2 +1,5 @@
-# First_LLM_RAG
-LLM with RAG
+# LLM RAG for restaurants 
+## Dependencies:
+Langflow
+## Python version:
+3.10
